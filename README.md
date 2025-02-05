@@ -34,11 +34,15 @@ git clone (https://github.com/Mohamed-Ishak/SimpleBooksAPIs.git)
  mvn test -Dcucumber.options="src/test/resources/features/E2E_Scenario.feature"
 
 🛠️ Configuration Management
+
 Base URI & other settings are stored in config.properties.
+
 ConfigManager.java loads these values automatically before test execution.
 
 📜 Reporting
+
 The framework generates a Cucumber HTML report after test execution.
+
 Check the report in:
 reports/cucumber-reports.html
 
