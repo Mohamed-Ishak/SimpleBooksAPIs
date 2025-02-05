@@ -31,17 +31,21 @@ This repository contains API automation scripts for the Simple Book API, using:
 
 
 🚀 How to Run the Tests
+
 🔹 Prerequisites
+
 Java 8+ installed
+
 Maven installed (mvn -version to check)
-Clone this repository:
-git clone (https://github.com/Mohamed-Ishak/SimpleBooksAPIs.git)
+
+Clone this repository:  git clone (https://github.com/Mohamed-Ishak/SimpleBooksAPIs.git)
 
 🔹 Run Tests using TestRunner
- To execute all tests via the TestRunner class:
- mvn test
+
+ To execute all tests via the TestRunner class:  mvn test
 
  To run tests for a specific feature:
+ 
  mvn test -Dcucumber.options="src/test/resources/features/E2E_Scenario.feature"
 
 🛠️ Configuration Management
