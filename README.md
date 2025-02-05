@@ -2,20 +2,31 @@
 📖 Simple Book API Automation
 
 This repository contains API automation scripts for the Simple Book API, using:
+
 ✅ RestAssured for API testing
+
 ✅ Cucumber (BDD) for behavior-driven testing
+
 ✅ TestNG for test execution
 
 
 📌 Project Structure
+
 📂 src/test/java (Test Code)
+
 📁 steps/ → Contains step definition files for CRUD operations.
+
 📁 utils/ → Includes ConfigManager to manage configurations centrally.
+
 📁 runners/ → Contains the TestRunner class to execute tests.
 
+
 📂 src/test/resources (Test Data & Configs)
+
 📁 features/ → Contains feature files for CRUD operations.
+
 📁 testData/ → Stores JSON or other test data files.
+
 📄 config.properties → Stores base URLs and other configurations.
 
 
